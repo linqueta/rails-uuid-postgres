@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 class Author < ApplicationRecord
-  has_many :books
+  default_scope { order(:created_at) }
 end
