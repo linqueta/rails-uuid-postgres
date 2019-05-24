@@ -1,0 +1,2 @@
+class AuthorUuid < ApplicationRecord
+end
